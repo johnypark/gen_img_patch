@@ -1,13 +1,21 @@
 ### Patch Images using TensorFlow
-Generating Patches from Given Images
-Set number of patches and patch sizes, which will result in overlapping patches. 
+
+Patch
+
+A patch (also called a local surface) is a differentiable mapping x:U->R^n, where U is an open subset of R^2. More generally, if A is any subset of R^2, then a map x:A->R^n is a patch provided that x can be extended to a differentiable map from U into R^n, where U is an open set containing A. Here, x(U) (or more generally, x(A)) is called the map trace of x.
+
+
 
 ![Alt text](data/gen_image_patch_example.png?raw=true)
+
+
+
 
 
 ```python
 
 import tensorflow_datasets as tfds
+  
   data, ds_info = tfds.load("oxford_flowers102", with_info=True, as_supervised=True)
   train_ds = data["train"]
   num_classes = ds_info.features["label"].num_classes
