@@ -13,6 +13,7 @@ from https://mathworld.wolfram.com/Patch.html
 
 
 
+Usage example:
 
 ```python
 
