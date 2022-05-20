@@ -4,6 +4,8 @@ Patch
 
 A patch (also called a local surface) is a differentiable mapping x:U->R^n, where U is an open subset of R^2. More generally, if A is any subset of R^2, then a map x:A->R^n is a patch provided that x can be extended to a differentiable map from U into R^n, where U is an open set containing A. Here, x(U) (or more generally, x(A)) is called the map trace of x.
 
+from https://mathworld.wolfram.com/Patch.html
+
 
 
 ![Alt text](data/gen_image_patch_example.png?raw=true)
