@@ -6,11 +6,9 @@ A patch (also called a local surface) is a differentiable mapping x:U->R^n, wher
 
 from https://mathworld.wolfram.com/Patch.html
 
-
+Guess what this flower's name is!
 
 ![Alt text](data/gen_image_patch_example.png?raw=true)
-
-
 
 
 Usage example:
@@ -36,6 +34,4 @@ import tensorflow_datasets as tfds
                             n_batch = 32, 
                             patch_size = 224, 
                             n_patches = 4))
-
-
 ```
